@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDeskClone.Web", "InDeskClone.Web\InDeskClone.Web.csproj", "{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InDeskClone.Web", "InDeskClone.Web\InDeskClone.Web.csproj", "{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InDeskClone.Application", "InDeskClone.Application\InDeskClone.Application.csproj", "{9D915115-E085-4626-8AF8-81AF8FE50CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InDeskClone.Application.Test", "InDeskClone.Application.Test\InDeskClone.Application.Test.csproj", "{F2115D82-FA50-4C51-B48C-C08E32F1F017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDeskClone.Persistence", "InDeskClone.Persistence\InDeskClone.Persistence.csproj", "{441F9CE3-0E2E-4E4E-A41A-0802F5704698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D915115-E085-4626-8AF8-81AF8FE50CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D915115-E085-4626-8AF8-81AF8FE50CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D915115-E085-4626-8AF8-81AF8FE50CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D915115-E085-4626-8AF8-81AF8FE50CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2115D82-FA50-4C51-B48C-C08E32F1F017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2115D82-FA50-4C51-B48C-C08E32F1F017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2115D82-FA50-4C51-B48C-C08E32F1F017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2115D82-FA50-4C51-B48C-C08E32F1F017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441F9CE3-0E2E-4E4E-A41A-0802F5704698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441F9CE3-0E2E-4E4E-A41A-0802F5704698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441F9CE3-0E2E-4E4E-A41A-0802F5704698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441F9CE3-0E2E-4E4E-A41A-0802F5704698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
