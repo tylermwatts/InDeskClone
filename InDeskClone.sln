@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDeskClone.Web", "InDeskClone.Web\InDeskClone.Web.csproj", "{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2D54AA-01EA-4272-9CA8-F57600F8B19C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0123E093-6D25-46FA-A5E3-3F852A79BE9E}
+	EndGlobalSection
+EndGlobal
